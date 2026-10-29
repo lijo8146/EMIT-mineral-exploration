@@ -1,0 +1,16 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local downloads, scratch files and credentials
+data/
+inventory/
+work/
+*.nc
+.env
+.env.*
+.netrc
+_netrc

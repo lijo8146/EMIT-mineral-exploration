@@ -1,0 +1,55 @@
+{
+  "granule": "EMIT_L2B_MIN_001_20260616T194859_2616713_011",
+  "inputs": {
+    "C:\\Users\\gekek\\Documents\\Codex\\2026-10-16\\let\\outputs\\emit_exploration\\real_data\\EMIT_L2B_MIN_001_20260616T194859_2616713_011.nc": "c6037f140ec7fae4d042aa86b4e29aef71c39260b78362860fe988d0ae284572",
+    "C:\\Users\\gekek\\Documents\\Codex\\2026-10-16\\let\\outputs\\emit_exploration\\real_data\\EMIT_L2B_MINUNCERT_001_20260616T194859_2616713_011.nc": "a7617264695fe0577dbf906caf74e15e305ab4ddf474611a9cf444baf1a998dd",
+    "C:\\Users\\gekek\\Documents\\Codex\\2026-10-16\\let\\outputs\\emit_exploration\\real_data\\EMIT_L2A_MASK_001_20260616T194859_2616713_011.nc": "711d3af82efec9c24655e02afc3c71a5c1f91af91daca6ba4dde01f0aa19dbe5"
+  },
+  "config": {
+    "name": "Cuprite, Nevada \u2014 advanced argillic alteration pilot",
+    "bbox": [
+      -117.35,
+      37.4,
+      -117.1,
+      37.65
+    ],
+    "temporal": [
+      "2022-08-09",
+      "2026-10-16"
+    ],
+    "version": "001",
+    "min_snr": 3.0,
+    "min_depth": 0.01,
+    "min_pixels": 9,
+    "target_terms": [
+      "kaolinit",
+      "alunit",
+      "dickit",
+      "pyrophyll"
+    ],
+    "support_terms": [
+      "hematit",
+      "goethit",
+      "jarosit"
+    ],
+    "fit_multiplier": null,
+    "min_fit": null
+  },
+  "matched_library_entries": [
+    "Alunite GDS84 Na03 W2R4Na",
+    "Alunite GDS97 K Syn (150C) W2R4Na",
+    "Alunite RES-9 Summitv (400C) W2R4Nb",
+    "Alunite RES10 NA56% Syn 450C W2R4Na",
+    "Alunite+Dickite MV99-6-26b W1R1Fc",
+    "Alunite0.5+Kaol_KGa-1 AMX3 W1R1Bb",
+    "Alunite0.66K+.34Na CU91-217A W2R4Nb",
+    "Alunite0.73K+.27Na CU91-217D W2R4Na",
+    "Dickite NMNH106242 W1R1Bb",
+    "Kaolinite CM9 (wxl) W1R1Hb",
+    "Kaolinite KGa-2 (pxl) W1R1Hb"
+  ],
+  "eligible_pixels": 202839,
+  "candidate_pixels": 7670,
+  "target_count": 44,
+  "ranking": "100*(0.6*min(median_snr/10,1)+0.4*nearby_iron_fraction)"
+}

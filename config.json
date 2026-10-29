@@ -1,0 +1,13 @@
+{
+  "name": "Cuprite, Nevada — advanced argillic alteration pilot",
+  "bbox": [-117.35, 37.40, -117.10, 37.65],
+  "temporal": ["2022-08-09", "2026-10-16"],
+  "version": "001",
+  "min_snr": 3.0,
+  "min_depth": 0.01,
+  "min_pixels": 9,
+  "target_terms": ["kaolinit", "alunit", "dickit", "pyrophyll"],
+  "support_terms": ["hematit", "goethit", "jarosit"],
+  "fit_multiplier": null,
+  "min_fit": null
+}
